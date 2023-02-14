@@ -1,7 +1,5 @@
-
-.counterButton {
+button {
     font-size:15px;
-    background-color:#ff00ea;
     width:100px;
     margin:10px;
     color:rgb(255, 255, 255);
@@ -9,6 +7,9 @@
     border-radius:30px;
     border-color: #000000;
     border-width: 1px;
+}
+.counterButton {
+    background-color:#ff00ea;
 }
 
 .count {
@@ -19,4 +20,8 @@
 .totalCount {
     font-size: 150px;
     color: #ff00ea;
+}
+
+.resetButton {
+    background-color:#5a3d57;
 }
