@@ -30,7 +30,7 @@ export default function Counter() {
     )
 }
 
-function CounterButton({by, incrementMethod}) {
+function CounterButton({by, incrementMethod, decrementMethod}) {
 
     const [count, setCount] = useState(0);
 
@@ -43,7 +43,7 @@ function CounterButton({by, incrementMethod}) {
 
     function decrementCounterFunction() {
         setCount(count - by)
-        incrementMethod(by)
+        decrementMethod(by)
     }
 
     return (
